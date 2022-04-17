@@ -3,3 +3,18 @@
 
 @import "./base/common";
 @import "./base/container";
+
+@import "./components/title";
+@import "./components/social";
+@import "./components/logo-header";
+@import "./components/logo-footer";
+@import "./components/backdrop";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/specifics";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/portfolio";
