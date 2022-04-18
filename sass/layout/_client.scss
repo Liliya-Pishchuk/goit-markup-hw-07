@@ -1,18 +1,21 @@
 /*----------------clients----------------*/
-.clients-title {
+.clients {
+  margin-bottom: 50px;
+}
+
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: space-between;
 }
 
-.client-link {
+.clients__link {
   padding: 16px 32px;
   display: flex;
   width: 170px;

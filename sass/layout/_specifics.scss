@@ -1,9 +1,9 @@
 /*--------------specifics--------------*/
-.specifics-list {
+.specifics__list {
   display: flex;
 }
 
-.specifics-list-item {
+.specifics__item {
   width: 270px;
 
   &:not(:last-child) {
@@ -11,7 +11,7 @@
   }
 }
 
-.specifics-container {
+.specifics__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,13 +21,13 @@
   background-color: var(--second-background-color);
 }
 
-.specifics-list-title {
+.specifics__title {
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.specifics-list-text {
+.specifics__text {
   line-height: 1.71;
 }

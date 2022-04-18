@@ -1,9 +1,9 @@
 /*---------------teams---------------*/
-.teams {
+.team {
   background-color: var(--second-background-color);
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -11,17 +11,17 @@
   text-align: center;
 }
 
-.team-list {
+.team__list {
   display: flex;
   margin-left: -30px;
 }
 
-.team-list-item {
+.team__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
 }
 
-.team-description {
+.team__description {
   width: 270px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -31,7 +31,7 @@
   background-color: var(--fone-background-color);
 }
 
-.team-list-title {
+.team__list-title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-.team-list-text {
+.team__list-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
